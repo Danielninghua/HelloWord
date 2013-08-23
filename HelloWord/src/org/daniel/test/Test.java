@@ -18,8 +18,7 @@ public class Test
             throw new IllegalArgumentException("IllegalArgumentException for example");
         }
         catch(Exception e)
-        {
-            
+        {            
             System.out.println(e.getMessage());
         }
 
